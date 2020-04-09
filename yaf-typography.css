@@ -23,26 +23,8 @@ td {
 
 p {
     margin-bottom: 1rem;
-    font-size: inherit;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
-}
-
-em,
-i {
-    font-style: italic;
-    line-height: inherit;
-}
-
-strong,
-b {
-    font-weight: bold;
-    line-height: inherit;
-}
-
-small {
-    font-size: 80%;
-    line-height: inherit;
 }
 
 h1, .h1,
@@ -54,7 +36,6 @@ h6, .h6 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    color: inherit;
     text-rendering: optimizeLegibility;
 }
 
@@ -132,7 +113,6 @@ h6, .h6 {
 }
 
 a {
-    line-height: inherit;
     color: #1779ba;
     text-decoration: none;
     cursor: pointer;
@@ -163,10 +143,6 @@ dl {
     margin-bottom: 1rem;
     list-style-position: outside;
     line-height: 1.6;
-}
-
-li {
-    font-size: inherit;
 }
 
 ul {
