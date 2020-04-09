@@ -21,8 +21,17 @@ td {
     padding: 0;
 }
 
-p {
+p, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+hr, ul, ol, dl, blockquote, .code-block {
+    margin-top: 0;
     margin-bottom: 1rem;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+
+p {
     line-height: 1.6;
     text-rendering: optimizeLegibility;
 }
@@ -52,43 +61,31 @@ h6 small, .h6 small {
 h1, .h1 {
     font-size: 1.5rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 h2, .h2 {
     font-size: 1.25rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 h3, .h3 {
     font-size: 1.1875rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 h5, .h5 {
     font-size: 1.0625rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 h6, .h6 {
     font-size: 1rem;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -130,7 +127,6 @@ hr {
     clear: both;
     max-width: 75rem;
     height: 0;
-    margin: 1.25rem auto;
     border-top: 0;
     border-right: 0;
     border-bottom: 1px solid #cacaca;
@@ -140,7 +136,6 @@ hr {
 ul,
 ol,
 dl {
-    margin-bottom: 1rem;
     list-style-position: outside;
     line-height: 1.6;
 }
@@ -156,11 +151,6 @@ ol {
 
 ul ul, ol ul, ul ol, ol ol {
     margin-left: 1.25rem;
-    margin-bottom: 0;
-}
-
-dl {
-    margin-bottom: 1rem;
 }
 
 dl dt {
@@ -169,7 +159,6 @@ dl dt {
 }
 
 blockquote {
-    margin: 0 0 1rem;
     padding: 0.5625rem 1.25rem 0 1.1875rem;
     border-left: 1px solid #cacaca;
 }
@@ -256,7 +245,6 @@ ul.no-bullet, ol.no-bullet {
     overflow: auto;
     white-space: pre;
     padding: 1rem;
-    margin-bottom: 1.5rem;
 }
 
 .text-left {
