@@ -28,20 +28,6 @@
 .grid-margin-x > .small-11 { width: calc(100% * 11/12 - 2rem); }
 .grid-margin-x > .small-12 { width: calc(100% * 12/12 - 2rem); }
 @media print, screen and (min-width: 40em) {
-    .grid-margin-x > .auto { width: auto; }
-    .grid-margin-x > .shrink { width: auto; }
-    .grid-margin-x > .small-1 { width: calc(100% *  1/12 - 2rem); }
-    .grid-margin-x > .small-2 { width: calc(100% *  2/12 - 2rem); }
-    .grid-margin-x > .small-3 { width: calc(100% *  3/12 - 2rem); }
-    .grid-margin-x > .small-4 { width: calc(100% *  4/12 - 2rem); }
-    .grid-margin-x > .small-5 { width: calc(100% *  5/12 - 2rem); }
-    .grid-margin-x > .small-6 { width: calc(100% *  6/12 - 2rem); }
-    .grid-margin-x > .small-7 { width: calc(100% *  7/12 - 2rem); }
-    .grid-margin-x > .small-8 { width: calc(100% *  8/12 - 2rem); }
-    .grid-margin-x > .small-9 { width: calc(100% *  9/12 - 2rem); }
-    .grid-margin-x > .small-10 { width: calc(100% * 10/12 - 2rem); }
-    .grid-margin-x > .small-11 { width: calc(100% * 11/12 - 2rem); }
-    .grid-margin-x > .small-12 { width: calc(100% * 12/12 - 2rem); }
     .grid-margin-x > .medium-auto { width: auto; }
     .grid-margin-x > .medium-shrink { width: auto; }
     .grid-margin-x > .medium-1 { width: calc(100% *  1/12 - 2rem); }
@@ -84,14 +70,6 @@
 .grid-margin-x.small-up-8 > .cell { width: calc(100% / 8 - 2rem); }
 
 @media print, screen and (min-width: 40em) {
-    .grid-margin-x.small-up-1 > .cell { width: calc(100% / 1 - 2rem); }
-    .grid-margin-x.small-up-2 > .cell { width: calc(100% / 2 - 2rem); }
-    .grid-margin-x.small-up-3 > .cell { width: calc(100% / 3 - 2rem); }
-    .grid-margin-x.small-up-4 > .cell { width: calc(100% / 4 - 2rem); }
-    .grid-margin-x.small-up-5 > .cell { width: calc(100% / 5 - 2rem); }
-    .grid-margin-x.small-up-6 > .cell { width: calc(100% / 6 - 2rem); }
-    .grid-margin-x.small-up-7 > .cell { width: calc(100% / 7 - 2rem); }
-    .grid-margin-x.small-up-8 > .cell { width: calc(100% / 8 - 2rem); }
     .grid-margin-x.medium-up-1 > .cell { width: calc(100% / 1 - 2rem); }
     .grid-margin-x.medium-up-2 > .cell { width: calc(100% / 2 - 2rem); }
     .grid-margin-x.medium-up-3 > .cell { width: calc(100% / 3 - 2rem); }
