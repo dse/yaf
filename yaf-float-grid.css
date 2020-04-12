@@ -287,17 +287,29 @@
     .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1) { clear: both; }
     .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child { float: left; }
     .medium-collapse > .column, .medium-collapse > .columns {
-        padding-right: 0; padding-left: 0; }
+        padding-right: 0;
+        padding-left: 0;
+    }
     .medium-collapse .row {
-        margin-right: 0; margin-left: 0; }
+        margin-right: 0;
+        margin-left: 0;
+    }
     .expanded.row .medium-collapse.row {
-        margin-right: 0; margin-left: 0; }
+        margin-right: 0;
+        margin-left: 0;
+    }
     .medium-uncollapse > .column, .medium-uncollapse > .columns {
-        padding-right: 1rem; padding-left: 1rem; }
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
     .medium-centered {
-        margin-right: auto; margin-left: auto; }
+        margin-right: auto;
+        margin-left: auto;
+    }
     .medium-centered, .medium-centered:last-child:not(:first-child) {
-        float: none; clear: both;    }
+        float: none;
+        clear: both;
+    }
     .medium-uncentered, .medium-push-0, .medium-pull-0 {
         position: static;
         margin-right: 0;
@@ -392,17 +404,29 @@
     .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1) { clear: both; }
     .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child { float: left; }
     .large-collapse > .column, .large-collapse > .columns {
-        padding-right: 0; padding-left: 0; }
+        padding-right: 0;
+        padding-left: 0;
+    }
     .large-collapse .row {
-        margin-right: 0; margin-left: 0; }
+        margin-right: 0;
+        margin-left: 0;
+    }
     .expanded.row .large-collapse.row {
-        margin-right: 0; margin-left: 0; }
+        margin-right: 0;
+        margin-left: 0;
+    }
     .large-uncollapse > .column, .large-uncollapse > .columns {
-        padding-right: 1rem; padding-left: 1rem; }
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
     .large-centered {
-        margin-right: auto; margin-left: auto; }
+        margin-right: auto;
+        margin-left: auto;
+    }
     .large-centered, .large-centered:last-child:not(:first-child) {
-        float: none; clear: both; }
+        float: none;
+        clear: both;
+    }
     .large-uncentered, .large-push-0, .large-pull-0 {
         position: static;
         margin-right: 0;
@@ -416,8 +440,10 @@
         float: right;
     }
 }
+
 .column-block {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+}
 .column-block > :last-child {
     margin-bottom: 0;
 }
