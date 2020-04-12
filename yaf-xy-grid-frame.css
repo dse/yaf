@@ -1,0 +1,85 @@
+.grid-frame {
+    overflow: hidden;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100vw;
+}
+
+.cell .grid-frame {
+    width: 100%;
+}
+
+.cell-block {
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.cell-block-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+.cell-block-container > .grid-x {
+    max-height: 100%;
+    flex-wrap: nowrap;
+}
+
+@media print, screen and (min-width: 40em) {
+    .medium-grid-frame {
+        overflow: hidden;
+        position: relative;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: 100vw;
+    }
+    .cell .medium-grid-frame {
+        width: 100%;
+    }
+    .medium-cell-block {
+        overflow-x: auto;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .medium-cell-block-container {
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+    }
+    .medium-cell-block-container > .grid-x {
+        max-height: 100%;
+        flex-wrap: nowrap;
+    }
+}
+
+@media print, screen and (min-width: 64em) {
+    .large-grid-frame {
+        overflow: hidden;
+        position: relative;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: 100vw;
+    }
+    .cell .large-grid-frame {
+        width: 100%;
+    }
+    .large-cell-block {
+        overflow-x: auto;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .large-cell-block-container {
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+    }
+    .large-cell-block-container > .grid-x {
+        max-height: 100%;
+        flex-wrap: nowrap;
+    }
+}
