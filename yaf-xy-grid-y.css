@@ -36,15 +36,15 @@
     flex: 0 0 auto;
 }
 
-.grid-y > .small-1 { height: calc(100% *  1/12); }
-.grid-y > .small-2 { height: calc(100% *  2/12); }
-.grid-y > .small-3 { height: calc(100% *  3/12); }
-.grid-y > .small-4 { height: calc(100% *  4/12); }
-.grid-y > .small-5 { height: calc(100% *  5/12); }
-.grid-y > .small-6 { height: calc(100% *  6/12); }
-.grid-y > .small-7 { height: calc(100% *  7/12); }
-.grid-y > .small-8 { height: calc(100% *  8/12); }
-.grid-y > .small-9 { height: calc(100% *  9/12); }
+.grid-y > .small-1  { height: calc(100% *  1/12); }
+.grid-y > .small-2  { height: calc(100% *  2/12); }
+.grid-y > .small-3  { height: calc(100% *  3/12); }
+.grid-y > .small-4  { height: calc(100% *  4/12); }
+.grid-y > .small-5  { height: calc(100% *  5/12); }
+.grid-y > .small-6  { height: calc(100% *  6/12); }
+.grid-y > .small-7  { height: calc(100% *  7/12); }
+.grid-y > .small-8  { height: calc(100% *  8/12); }
+.grid-y > .small-9  { height: calc(100% *  9/12); }
 .grid-y > .small-10 { height: calc(100% * 10/12); }
 .grid-y > .small-11 { height: calc(100% * 11/12); }
 .grid-y > .small-12 { height: calc(100% * 12/12); }
@@ -57,18 +57,18 @@
         flex: 0 0 auto;
     }
     .grid-y > .medium-shrink { height: auto; }
-    .grid-y > .medium-1 { height: calc(100% *  1/12); }
-    .grid-y > .medium-2 { height: calc(100% *  2/12); }
-    .grid-y > .medium-3 { height: calc(100% *  3/12); }
-    .grid-y > .medium-4 { height: calc(100% *  4/12); }
-    .grid-y > .medium-5 { height: calc(100% *  5/12); }
-    .grid-y > .medium-6 { height: calc(100% *  6/12); }
-    .grid-y > .medium-7 { height: calc(100% *  7/12); }
-    .grid-y > .medium-8 { height: calc(100% *  8/12); }
-    .grid-y > .medium-9 { height: calc(100% *  9/12); }
-    .grid-y > .medium-10 { height: calc(100% * 10/12); }
-    .grid-y > .medium-11 { height: calc(100% * 11/12); }
-    .grid-y > .medium-12 { height: calc(100% * 12/12); }
+    .grid-y > .medium-1      { height: calc(100% *  1/12); }
+    .grid-y > .medium-2      { height: calc(100% *  2/12); }
+    .grid-y > .medium-3      { height: calc(100% *  3/12); }
+    .grid-y > .medium-4      { height: calc(100% *  4/12); }
+    .grid-y > .medium-5      { height: calc(100% *  5/12); }
+    .grid-y > .medium-6      { height: calc(100% *  6/12); }
+    .grid-y > .medium-7      { height: calc(100% *  7/12); }
+    .grid-y > .medium-8      { height: calc(100% *  8/12); }
+    .grid-y > .medium-9      { height: calc(100% *  9/12); }
+    .grid-y > .medium-10     { height: calc(100% * 10/12); }
+    .grid-y > .medium-11     { height: calc(100% * 11/12); }
+    .grid-y > .medium-12     { height: calc(100% * 12/12); }
 }
 @media print, screen and (min-width: 64em) {
     .grid-y > .large-auto {
@@ -79,18 +79,18 @@
         flex: 0 0 auto;
     }
     .grid-y > .large-shrink { height: auto; }
-    .grid-y > .large-1 { height: calc(100% *  1/12); }
-    .grid-y > .large-2 { height: calc(100% *  2/12); }
-    .grid-y > .large-3 { height: calc(100% *  3/12); }
-    .grid-y > .large-4 { height: calc(100% *  4/12); }
-    .grid-y > .large-5 { height: calc(100% *  5/12); }
-    .grid-y > .large-6 { height: calc(100% *  6/12); }
-    .grid-y > .large-7 { height: calc(100% *  7/12); }
-    .grid-y > .large-8 { height: calc(100% *  8/12); }
-    .grid-y > .large-9 { height: calc(100% *  9/12); }
-    .grid-y > .large-10 { height: calc(100% * 10/12); }
-    .grid-y > .large-11 { height: calc(100% * 11/12); }
-    .grid-y > .large-12 { height: calc(100% * 12/12); }
+    .grid-y > .large-1      { height: calc(100% *  1/12); }
+    .grid-y > .large-2      { height: calc(100% *  2/12); }
+    .grid-y > .large-3      { height: calc(100% *  3/12); }
+    .grid-y > .large-4      { height: calc(100% *  4/12); }
+    .grid-y > .large-5      { height: calc(100% *  5/12); }
+    .grid-y > .large-6      { height: calc(100% *  6/12); }
+    .grid-y > .large-7      { height: calc(100% *  7/12); }
+    .grid-y > .large-8      { height: calc(100% *  8/12); }
+    .grid-y > .large-9      { height: calc(100% *  9/12); }
+    .grid-y > .large-10     { height: calc(100% * 10/12); }
+    .grid-y > .large-11     { height: calc(100% * 11/12); }
+    .grid-y > .large-12     { height: calc(100% * 12/12); }
 }
 
 .grid-padding-y .grid-padding-y {
