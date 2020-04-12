@@ -5,13 +5,14 @@
 
 /* CHOOSE XY GRID */
 @import url('yaf-xy-grid.css');
-/* @import url('yaf-xy-grid-margin-x.css'); */
-/* @import url('yaf-xy-grid-y.css'); */
-/* @import url('yaf-xy-grid-margin-y.css'); */
-/* @import url('yaf-xy-grid-frame.css'); */
-/* @import url('yaf-xy-grid-frame-y.css'); */
+/* @import url('yaf-xy-grid-margin-x.css'); */          /* OPTIONAL */
+/* @import url('yaf-xy-grid-y.css'); */                 /* OPTIONAL */
+/* @import url('yaf-xy-grid-margin-y.css'); */          /* OPTIONAL */
+/* @import url('yaf-xy-grid-frame.css'); */             /* OPTIONAL */
+/* @import url('yaf-xy-grid-frame-y.css'); */           /* OPTIONAL */
 
 /* OR CHOOSE FLOAT GRID */
 /* @import url('yaf-float-grid.css'); */
+/* @import url('yaf-float-block-grid.css'); */          /* OPTIONAL */
 
 @import url('yaf-helpers.css');
