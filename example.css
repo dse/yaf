@@ -1,6 +1,8 @@
 @import url('normalize-8.0.1.css');
 @import url('yaf-global-styles.css');
+/* @import url('yaf-global-sample-styles.css'); */      /* OPTIONAL */
 @import url('yaf-typography.css');
+/* @import url('yaf-typography-sample-styles.css'); */  /* OPTIONAL */
 @import url('yaf-forms.css');
 
 /* CHOOSE XY GRID */
