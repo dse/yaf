@@ -47,16 +47,6 @@
     max-width: none;
 }
 
-.row.gutter-small > .column, .row.gutter-small > .columns {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
-.row.gutter-medium > .column, .row.gutter-medium > .columns {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
 .column, .columns {
     width: 100%;
     float: left;
