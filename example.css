@@ -5,6 +5,7 @@
 
 /* CHOOSE XY GRID */
 @import url('yaf-xy-grid.css');
+/* @import url('yaf-xy-block-grid.css'); */             /* OPTIONAL */
 /* @import url('yaf-xy-grid-margin-x.css'); */          /* OPTIONAL */
 /* @import url('yaf-xy-grid-y.css'); */                 /* OPTIONAL */
 /* @import url('yaf-xy-grid-margin-y.css'); */          /* OPTIONAL */
