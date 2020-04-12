@@ -94,27 +94,6 @@
 .small-10 { width: calc(100% * 10/12); }
 .small-11 { width: calc(100% * 11/12); }
 .small-12 { width: calc(100% * 12/12); }
-
-.small-collapse > .column, .small-collapse > .columns {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.small-collapse .row {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.expanded.row .small-collapse.row {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.small-uncollapse > .column, .small-uncollapse > .columns {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-
 @media print, screen and (min-width: 40em) {
     .medium-1  { width: calc(100% *  1/12); }
     .medium-2  { width: calc(100% *  2/12); }
@@ -128,25 +107,7 @@
     .medium-10 { width: calc(100% * 10/12); }
     .medium-11 { width: calc(100% * 11/12); }
     .medium-12 { width: calc(100% * 12/12); }
-
-    .medium-collapse > .column, .medium-collapse > .columns {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .medium-collapse .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .expanded.row .medium-collapse.row {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .medium-uncollapse > .column, .medium-uncollapse > .columns {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
 }
-
 @media print, screen and (min-width: 64em) {
     .large-1  { width: calc(100% *  1/12); }
     .large-2  { width: calc(100% *  2/12); }
@@ -160,27 +121,10 @@
     .large-10 { width: calc(100% * 10/12); }
     .large-11 { width: calc(100% * 11/12); }
     .large-12 { width: calc(100% * 12/12); }
-
-    .large-collapse > .column, .large-collapse > .columns {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .large-collapse .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .expanded.row .large-collapse.row {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .large-uncollapse > .column, .large-uncollapse > .columns {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
 }
 
 /**
- * Grid Centering.
+ * Grid Row Centering.
  */
 
 .small-centered {
@@ -260,7 +204,7 @@
 }
 
 /**
- * Offset, Push, and Pull.
+ * Offset, Pull, and Push.
  */
 
 .small-offset-0  { margin-left: calc(100% *  0/12); }
@@ -376,4 +320,61 @@
     .large-push-9  { position: relative; left: calc(100% *  9/12); }
     .large-push-10 { position: relative; left: calc(100% * 10/12); }
     .large-push-11 { position: relative; left: calc(100% * 11/12); }
+}
+
+/**
+ * Breakpoint Collapse and Expanded.
+ */
+
+.small-collapse > .column, .small-collapse > .columns {
+    padding-right: 0;
+    padding-left: 0;
+}
+.small-collapse .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.expanded.row .small-collapse.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.small-uncollapse > .column, .small-uncollapse > .columns {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+@media print, screen and (min-width: 40em) {
+    .medium-collapse > .column, .medium-collapse > .columns {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .medium-collapse .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .expanded.row .medium-collapse.row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .medium-uncollapse > .column, .medium-uncollapse > .columns {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+@media print, screen and (min-width: 64em) {
+    .large-collapse > .column, .large-collapse > .columns {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .large-collapse .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .expanded.row .large-collapse.row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .large-uncollapse > .column, .large-uncollapse > .columns {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 }
