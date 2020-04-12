@@ -1,0 +1,16 @@
+@import url('normalize-8.0.1.css');
+@import url('yaf-global-styles.css');
+@import url('yaf-typography.css');
+@import url('yaf-forms.css');
+
+/* CHOOSE XY GRID */
+@import url('yaf-xy-grid.css');
+// @import url('yaf-xy-grid-margin-x.css'); /*OPTIONAL*/
+// @import url('yaf-xy-grid-y.css'); /*OPTIONAL*/
+// @import url('yaf-xy-grid-frame.css'); /*OPTIONAL*/
+// @import url('yaf-xy-grid-frame-y.css'); /*OPTIONAL*/
+
+/* OR CHOOSE FLOAT GRID */
+// @import url('yaf-float-grid.css');
+
+@import url('yaf-helpers.css');
