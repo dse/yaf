@@ -79,7 +79,7 @@
 }
 
 /**
- * Column Width Classes.
+ * Float Grid Column Width Classes.
  */
 
 .small-1  { width: calc(100% *  1/12); }
@@ -124,7 +124,7 @@
 }
 
 /**
- * Grid Row Centering.
+ * Float Grid Row Centering.
  */
 
 .small-centered {
@@ -193,7 +193,7 @@
 }
 
 /**
- * Column Block Margins.
+ * Float Grid Column Block Margins.
  */
 
 .column-block {
@@ -204,7 +204,7 @@
 }
 
 /**
- * Offset, Pull, and Push.
+ * Float Grid Offset, Pull, and Push.
  */
 
 .small-offset-0  { margin-left: calc(100% *  0/12); }
