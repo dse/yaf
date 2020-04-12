@@ -179,32 +179,6 @@
     .grid-margin-y > .large-12 { height: calc(100% - 2rem); }
 }
 
-.cell-block-y {
-    overflow-y: auto;
-    max-height: 100%;
-    min-height: 100%;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-@media print, screen and (min-width: 40em) {
-    .medium-cell-block-y {
-        overflow-y: auto;
-        max-height: 100%;
-        min-height: 100%;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-}
-@media print, screen and (min-width: 64em) {
-    .large-cell-block-y {
-        overflow-y: auto;
-        max-height: 100%;
-        min-height: 100%;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-}
-
 .grid-margin-y {
     margin-top: -1rem;
     margin-bottom: -1rem;
