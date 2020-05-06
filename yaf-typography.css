@@ -72,6 +72,18 @@ dl {
     list-style-position: outside;
 }
 
+ul, ol {
+    margin-left: 2rem;
+}
+
+ul, ol {
+    margin-left: 2rem;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-left: 2rem;
+}
+
 abbr, abbr[title] {
     cursor: help;
 }
